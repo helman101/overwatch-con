@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'cocogoose';
+    font-style: normal;
+    font-weight: 100;
+    src:
+      url(./../assets/fonts/Cocogoose-Pro-Thin-trial.ttf) format("tiff");
+}
+@font-face {
+  font-family: 'cocogoose';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url(./../assets/fonts//Cocogoose-Pro-Ultralight-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Light-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Semilight-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: italic;
+  font-weight: 100;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Thin-Italic-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: italic;
+  font-weight: 200;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-UltraLight-Italic-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: italic;
+  font-weight: 300;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Light-Italic-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf) format("tiff");
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url(./../assets/fonts/Cocogoose-Pro-Italic-trial.ttf) format("tiff");
+}
+
