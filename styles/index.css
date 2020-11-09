@@ -274,15 +274,48 @@ main {
   width: 35px;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 .sponsors {
   width: 100vw;
   background-color: #272A31;
-  height: 50vh;
+  height: 40vh;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
 }
 
-footer img {
-  width: 45px;
+.sponsor {
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsors .sponsor img {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.rights {
+  margin: auto;
+  width: 80%;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.rights div {
+  font-family: 'lato', sans-serif;
+  font-size: 0.7rem;
+}
+
+.rights img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.rights hr {
+  margin: 5px ;
 }
