@@ -82,10 +82,6 @@
     url(./../assets/fonts/Cocogoose-Pro-Italic-trial.ttf) format("tiff");
 }
 
-main {
-  margin-top: 60px;
-}
-
 .cocogoose {
   font-family: 'cocogoose', sans-serif;
 }
@@ -119,27 +115,48 @@ main {
 
 .intro {
   width: 100%;
-  height: 70vh;
-  background-color: white;
+  height: 80vh;
+  background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 50% no-repeat;
+  background-size: cover;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
 }
 
-.intro .title {
-  font-size: 1.5rem;
-} 
-
-.intro img {
+.welcome {
   width: 90%;
+  flex-direction: column;
+}
+
+.welcome .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.welcome p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.493);
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 80%;
+  align-self: center;
+}
+
+.welcome img {
+  width: 100%;
+  margin: 20px 0;
 }
 
 .date {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bolder;
 }
 
 .place {
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
