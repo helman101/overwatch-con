@@ -113,6 +113,38 @@
   justify-content: space-between;
 }
 
+.navbar .icon{
+  fill: #272A31;
+  width: 30px;
+  margin: 5px 0 0 5px;
+} 
+
+.big-icon {
+  width: 50px;
+  margin-left: 20px;
+  justify-self: center;
+}
+
+@media screen and (min-width: 768px){
+  .navbar {
+    height: 80px;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+
+  .big-icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .big-icon {
+    display: none;
+  }
+}
+
 .links {
   margin-right: 5px;
 }
@@ -120,15 +152,20 @@
 .links a {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-  margin-left: 10px;
+  margin-right: 10px;
   font-weight: bold;
 }
 
-.navbar .icon{
-  fill: #272A31;
-  width: 30px;
-  margin: 5px 0 0 5px;
-} 
+@media screen and (min-width: 768px){
+  .links {
+    margin-right: 5px;
+  }
+  
+  .links a {
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+}
 
 .intro {
   width: 100%;
@@ -166,6 +203,18 @@
 .welcome img {
   width: 100%;
   margin: 20px 0;
+}
+
+@media screen and (min-width: 768px){
+  .welcome {
+    padding-top: 80px;
+  }
+  .welcome img {
+    width: 50%;
+    margin: 20px 0;
+  }
+  
+  
 }
 
 .date {
@@ -358,6 +407,7 @@ footer {
   margin: 5px ;
 }
 
+/*About Style*/
 .about {
   padding-top: 30px;
   flex-direction: column;
@@ -365,7 +415,7 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 50% no-repeat;
+  background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 0% no-repeat;
   text-align: center;
 }
 
@@ -376,4 +426,70 @@ footer {
 .about span {
   font-weight: bolder;
   text-decoration: underline;
+}
+
+.latest {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past {
+  margin: 10px;
+  width: 90%;
+  height: 30vh;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.past span {
+  display: block;
+  margin: 0 auto;
+}
+
+.p1 {
+  background: linear-gradient(#ec53429d, #ec53429d), url(../assets/images/2019.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.p2 {
+  background: linear-gradient(#ec53429d, #ec53429d), url(../assets/images/2018.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+/*Tickets Style*/
+
+.tickets {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+table, td {
+  border: 1px solid  #D3D3D3;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+td {
+  padding: 8px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.select {
+  align-self: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: 1px solid #D3D3D3;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.table {
+  margin-top: 20px;
 }
