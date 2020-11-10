@@ -111,6 +111,21 @@
   margin-bottom: 20px;
 }
 
+
+.header{
+  font-weight: bolder;
+  margin: 30px 10px 10px 10px;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px){
+  .header{
+    font-size: 2.5rem;
+    margin: 50px 10px 10px 10px;
+  }
+
+}
+
 /*Nav bar*/
 .navbar {
   position: fixed;
@@ -507,21 +522,6 @@
   background-size: 220px;
 }
 
-
-.header{
-  font-weight: bolder;
-  margin: 30px 10px 10px 10px;
-  font-size: 1.5rem;
-}
-
-@media screen and (min-width: 768px){
-  .header{
-    font-size: 2.5rem;
-    margin: 50px 10px 10px 10px;
-  }
-
-}
-
 /*Footer*/
 footer {
   margin-top: 20px;
@@ -579,7 +579,7 @@ footer {
   }
 }
 
-/*About Style*/
+/*About Style*/ /*About*/
 .about {
   padding-top: 30px;
   flex-direction: column;
@@ -591,6 +591,12 @@ footer {
   text-align: center;
 }
 
+.about .text {
+  align-self: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .about svg {
   width: 50%;
 }
@@ -600,10 +606,45 @@ footer {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 768px){
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .about svg {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  .about .text {
+    width: 50%;
+  }
+
+  .about .text p{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .about .text p{
+    font-size: 0.8rem;
+  }
+}
+
+/*Previous*/
 .latest {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.previous {
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .past {
@@ -615,11 +656,21 @@ footer {
   font-size: 2.5rem;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
-.past span {
-  display: block;
-  margin: 0 auto;
+@media screen and (min-width: 768px){
+  .previous {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .past {
+    width: 40%;
+    height: 40vh;
+    font-size: 5rem;
+  }
 }
 
 .p1 {
