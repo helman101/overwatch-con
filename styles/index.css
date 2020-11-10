@@ -152,12 +152,11 @@
   font-weight: bold;
 }
 
-.welcome p {
+.welcome p, main p {
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
   font-size: 1rem;
   line-height: 1.8rem;
-  background-color: rgba(255, 255, 255, 0.493);
+  background-color: rgba(255, 255, 255, 0.336);
   margin-bottom: 20px;
   padding: 5px;
   width: 80%;
@@ -357,4 +356,24 @@ footer {
 
 .rights hr {
   margin: 5px ;
+}
+
+.about {
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 50% no-repeat;
+  text-align: center;
+}
+
+.about svg {
+  width: 50%;
+}
+
+.about span {
+  font-weight: bolder;
+  text-decoration: underline;
 }
