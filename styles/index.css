@@ -82,6 +82,7 @@
     url(./../assets/fonts/Cocogoose-Pro-Italic-trial.ttf) format("tiff");
 }
 
+/*Global*/
 .cocogoose {
   font-family: 'cocogoose', sans-serif;
 }
@@ -102,6 +103,7 @@
   color: #2d3038;
 }
 
+/*Nav bar*/
 .navbar {
   position: fixed;
   top: 0;
@@ -167,6 +169,7 @@
   }
 }
 
+/*Presentation*/
 .intro {
   width: 100%;
   height: 100vh;
@@ -193,28 +196,16 @@
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
-  background-color: rgba(255, 255, 255, 0.336);
+  background-color: rgba(255, 255, 255, 0.212);
   margin-bottom: 20px;
   padding: 5px;
   width: 80%;
   align-self: center;
 }
 
-.welcome img {
+.welcome img:first-of-type {
   width: 100%;
   margin: 20px 0;
-}
-
-@media screen and (min-width: 768px){
-  .welcome {
-    padding-top: 80px;
-  }
-  .welcome img {
-    width: 50%;
-    margin: 20px 0;
-  }
-  
-  
 }
 
 .date {
@@ -227,6 +218,51 @@
   font-weight: bold;
 }
 
+@media screen and (min-width: 768px){
+  .welcome {
+    padding-top: 80px;
+    width: 70%;
+  }
+
+  .welcome img:first-of-type {
+    display: none;
+  }
+
+  .welcome img:last-of-type {
+    width: 100%;
+  }
+  
+  .welcome .title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+
+  .welcome p {
+    align-self: flex-start;
+    max-width: 600px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .date {
+    font-size: 4rem;
+  }
+  
+  .place {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .welcome img:last-of-type {
+    display: none;
+  }
+  
+}
+
+/*Be Part*/
+
 .be-part-of {
   background-color: #272A31;
   fill: #D3D3D3;
@@ -234,15 +270,12 @@
   align-items: center;
 }
 
-.border {
-  width: 50px;
-  height: 1px;
-  background-color: #EC5242;
-  margin-bottom: 20px;
-}
-
 .be-part-of .tlt {
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px){
+
 }
 
 .event {
@@ -276,6 +309,13 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.border {
+  width: 50px;
+  height: 1px;
+  background-color: #EC5242;
+  margin-bottom: 20px;
 }
 
 .guests {
