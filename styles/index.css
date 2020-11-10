@@ -3,97 +3,87 @@
   padding: 0;
 }
 
-
 @font-face {
-    font-family: 'cocogoose';
-    font-style: normal;
-    font-weight: 100;
-    src:
-      url(./../assets/fonts/Cocogoose-Pro-Thin-trial.ttf) format("tiff");
+  font-family: 'cocogoose';
+  font-style: normal;
+  font-weight: 100;
+  src: url(./../assets/fonts/Cocogoose-Pro-Thin-trial.ttf) format("tiff");
 }
+
 @font-face {
   font-family: 'cocogoose';
   font-style: normal;
   font-weight: 200;
-  src:
-    url(./../assets/fonts//Cocogoose-Pro-Ultralight-trial.ttf) format("tiff");
+  src: url(./../assets/fonts//Cocogoose-Pro-Ultralight-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: normal;
   font-weight: 300;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Light-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Light-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: normal;
   font-weight: 400;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Semilight-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Semilight-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: normal;
   font-weight: 500;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: italic;
   font-weight: 100;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Thin-Italic-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Thin-Italic-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: italic;
   font-weight: 200;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-UltraLight-Italic-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-UltraLight-Italic-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: italic;
   font-weight: 300;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Light-Italic-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Light-Italic-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: italic;
   font-weight: 400;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Semilight-Italic-trial.ttf) format("tiff");
 }
 
 @font-face {
   font-family: 'cocogoose';
   font-style: italic;
   font-weight: 500;
-  src:
-    url(./../assets/fonts/Cocogoose-Pro-Italic-trial.ttf) format("tiff");
+  src: url(./../assets/fonts/Cocogoose-Pro-Italic-trial.ttf) format("tiff");
 }
 
-/*Global*/
+/* Global */
 .cocogoose {
   font-family: 'cocogoose', sans-serif;
 }
 
 .text-orange {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .text-ligthgray {
-  color: #D3D3D3;
+  color: #d3d3d3;
 }
 
 .d-flex {
@@ -111,42 +101,40 @@
 .border {
   width: 50px;
   height: 1px;
-  background-color: #EC5242;
+  background-color: #ec5242;
   margin-bottom: 20px;
 }
 
-
-.header{
+.header {
   font-weight: bolder;
   margin: 30px 10px 10px 10px;
   font-size: 1.5rem;
 }
 
-@media screen and (min-width: 768px){
-  .header{
+@media screen and (min-width: 768px) {
+  .header {
     font-size: 2.5rem;
     margin: 50px 10px 10px 10px;
   }
-
 }
 
-/*Nav bar*/
+/* Nav bar */
 .navbar {
   position: fixed;
   top: 0;
   background-color: white;
   width: 100%;
   height: 40px;
-  box-shadow: 0 2px 3px 3px #272a3171 ;
+  box-shadow: 0 2px 3px 3px #272a3171;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar .icon{
-  fill: #272A31;
+.navbar .icon {
+  fill: #272a31;
   width: 30px;
   margin: 5px 0 0 5px;
-} 
+}
 
 .big-icon {
   width: 50px;
@@ -154,11 +142,11 @@
   justify-self: center;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .navbar {
     height: 80px;
   }
-  
+
   .navbar .icon {
     display: none;
   }
@@ -168,7 +156,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .big-icon {
     display: none;
   }
@@ -184,18 +172,18 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .links {
     margin-right: 5px;
   }
-  
+
   .links a {
     font-size: 1.5rem;
     margin-right: 20px;
   }
 }
 
-/*Presentation*/
+/* Presentation */
 .intro {
   width: 100%;
   height: 100vh;
@@ -204,7 +192,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .welcome {
@@ -217,7 +204,8 @@
   font-size: 1.7rem;
 }
 
-.welcome p, main p {
+.welcome p,
+.main p {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
@@ -226,6 +214,11 @@
   padding: 5px;
   width: 80%;
   align-self: center;
+}
+
+.rights img {
+  height: 50px;
+  margin-right: 10px;
 }
 
 .welcome img:first-of-type {
@@ -241,7 +234,7 @@
   font-size: 1.4rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .welcome {
     padding-top: 80px;
     width: 70%;
@@ -254,7 +247,7 @@
   .welcome img:last-of-type {
     width: 100%;
   }
-  
+
   .welcome .title {
     font-size: 3rem;
     margin-bottom: 30px;
@@ -270,25 +263,23 @@
   .date {
     font-size: 2rem;
   }
-  
+
   .place {
     font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
   .welcome img:last-of-type {
     display: none;
   }
-  
 }
 
-/*Be Part*/
+/* Be Part */
 
 .be-part-of {
-  background-color: #272A31;
-  fill: #D3D3D3;
+  background-color: #272a31;
+  fill: #d3d3d3;
   flex-direction: column;
   align-items: center;
 }
@@ -306,7 +297,7 @@
   background-color: #d3d3d348;
   height: 15vh;
   width: 90%;
-  margin: 10px; 
+  margin: 10px;
   justify-content: space-around;
   align-items: center;
 }
@@ -321,7 +312,7 @@
 }
 
 .btn {
-  background-color: #EC5242;
+  background-color: #ec5242;
   border-style: none;
   width: 70%;
   height: 10vh;
@@ -335,19 +326,18 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px){
-
-  .all-events{
+@media screen and (min-width: 768px) {
+  .all-events {
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .event {
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
     margin: 5px;
-    height: 30vh; 
+    height: 30vh;
     padding: 20px;
   }
 
@@ -371,11 +361,11 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .event {
     width: 20%;
     margin: 5px;
-    height: 30vh; 
+    height: 30vh;
     padding: 20px;
   }
 
@@ -399,7 +389,7 @@
   }
 }
 
-/*Guests*/
+/* Guests */
 .guests {
   flex-direction: column;
   font-family: 'Lato', sans-serif;
@@ -419,6 +409,7 @@
   margin: 10px;
   align-items: center;
 }
+
 .guests hr {
   width: 30px;
 }
@@ -449,7 +440,7 @@
   margin-top: 5px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .speakers {
     flex-direction: row;
     flex-wrap: wrap;
@@ -460,32 +451,29 @@
   .guest {
     width: 45%;
   }
-  
 }
 
-@media screen and (min-width: 1024px){
-
-  .speakers{
+@media screen and (min-width: 1024px) {
+  .speakers {
     width: 60%;
   }
 
   .guest {
     width: 45%;
   }
-  
+
   .name {
     font-size: 1.3rem;
   }
-  
+
   .who {
     font-size: 0.9rem;
   }
-  
+
   .bio {
     font-size: 0.8rem;
   }
 }
-
 
 .g1 {
   background: url(./../assets/images/j-allen-brack.jpg) 0% 20% no-repeat;
@@ -517,14 +505,14 @@
   background-size: 220px;
 }
 
-/*Footer*/
+/* Footer */
 footer {
   margin-top: 20px;
 }
 
 .sponsors {
   width: 100vw;
-  background-color: #272A31;
+  background-color: #272a31;
   height: 40vh;
   flex-direction: column;
   flex-wrap: wrap;
@@ -555,16 +543,11 @@ footer {
   font-size: 0.7rem;
 }
 
-.rights img {
-  height: 50px;
-  margin-right: 10px;
-}
-
 .rights hr {
-  margin: 5px ;
+  margin: 5px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .rights img {
     height: 80px;
   }
@@ -574,7 +557,9 @@ footer {
   }
 }
 
-/*About Style*/ /*About*/
+/* About Style */
+
+/* About */
 .about {
   padding-top: 30px;
   flex-direction: column;
@@ -602,8 +587,7 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 768px){
-
+@media screen and (min-width: 768px) {
   .about {
     margin-top: 50px;
   }
@@ -617,18 +601,18 @@ footer {
     width: 50%;
   }
 
-  .about .text p{
+  .about .text p {
     font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 768px){
-  .about .text p{
+@media screen and (max-width: 768px) {
+  .about .text p {
     font-size: 0.8rem;
   }
 }
 
-/*Previous*/
+/* Previous */
 .latest {
   flex-direction: column;
   justify-content: center;
@@ -654,7 +638,7 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .previous {
     flex-direction: row;
     flex-wrap: wrap;
@@ -678,7 +662,7 @@ footer {
   background-size: cover;
 }
 
-/*Tickets Style*/
+/* Tickets Style */
 
 .tickets {
   justify-content: center;
@@ -687,8 +671,9 @@ footer {
   margin-top: 50px;
 }
 
-table, td {
-  border: 1px solid  #D3D3D3;
+table,
+td {
+  border: 1px solid  #d3d3d3;
   border-collapse: collapse;
   font-size: 0.8rem;
 }
@@ -707,7 +692,7 @@ td {
 .select {
   align-self: center;
   font-size: 0.7rem;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   padding: 8px;
   border-radius: 15px;
 }
@@ -716,15 +701,16 @@ td {
   width: 80%;
   margin-top: 20px;
   justify-content: center;
-  border: 2px solid #EC5242;
+  border: 2px solid #ec5242;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .tickets {
     margin-top: 80px;
   }
 
-  table, td {
+  table,
+  td {
     font-size: 1rem;
   }
 
