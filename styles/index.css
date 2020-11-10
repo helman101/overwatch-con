@@ -104,6 +104,10 @@
   color: #2d3038;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .border {
   width: 50px;
   height: 1px;
@@ -178,7 +182,6 @@
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   margin-right: 10px;
-  font-weight: bold;
 }
 
 @media screen and (min-width: 768px){
@@ -698,6 +701,11 @@ table, td {
   font-size: 0.8rem;
 }
 
+table {
+  width: 90%;
+  height: 40vh;
+}
+
 td {
   padding: 8px;
   text-align: center;
@@ -715,4 +723,21 @@ td {
 
 .table {
   margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px){
+  .tickets {
+    margin-top: 80px;
+  }
+
+  table, td {
+    font-size: 1rem;
+  }
+
+  .select {
+    font-size: 1rem;
+    padding: 15px;
+  }
 }
