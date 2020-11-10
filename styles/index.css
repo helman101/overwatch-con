@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 @font-face {
     font-family: 'cocogoose';
     font-style: normal;
@@ -101,6 +102,13 @@
 
 .text-gray {
   color: #2d3038;
+}
+
+.border {
+  width: 50px;
+  height: 1px;
+  background-color: #EC5242;
+  margin-bottom: 20px;
 }
 
 /*Nav bar*/
@@ -245,11 +253,11 @@
   }
 
   .date {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   
   .place {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -274,8 +282,13 @@
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px){
+.be-part-of .icon {
+  width: 35px;
+}
 
+.all-events {
+  flex-direction: column;
+  align-items: center;
 }
 
 .event {
@@ -311,21 +324,87 @@
   text-decoration: none;
 }
 
-.border {
-  width: 50px;
-  height: 1px;
-  background-color: #EC5242;
-  margin-bottom: 20px;
+@media screen and (min-width: 768px){
+
+  .all-events{
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .event {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    margin: 5px;
+    height: 30vh; 
+    padding: 20px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .be-part-of .icon {
+    width: 60px;
+    margin-top: 10%;
+  }
+
+  .be-part-of .tlt {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 20%;
+  }
 }
 
+@media screen and (min-width: 1024px){
+  .event {
+    width: 20%;
+    margin: 5px;
+    height: 30vh; 
+    padding: 20px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .be-part-of .icon {
+    width: 60px;
+    margin-top: 10%;
+  }
+
+  .be-part-of .tlt {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 20%;
+  }
+}
+
+/*Guests*/
 .guests {
   flex-direction: column;
   font-family: 'Lato', sans-serif;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+.speakers {
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
 }
 
 .guest {
   height: 20vh;
+  width: 90%;
   margin: 10px;
   align-items: center;
 }
@@ -342,6 +421,61 @@
 .text {
   width: 65%;
 }
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.who {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.bio {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px){
+  .speakers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .guest {
+    width: 45%;
+  }
+  
+}
+
+@media screen and (min-width: 1024px){
+
+  .speakers{
+    width: 60%;
+  }
+
+  .guest {
+    width: 45%;
+  }
+  
+  .name {
+    font-size: 1.3rem;
+  }
+  
+  .who {
+    font-size: 0.9rem;
+  }
+  
+  .bio {
+    font-size: 0.8rem;
+  }
+}
+
 
 .g1 {
   background: url(./../assets/images/j-allen-brack.jpg) 0% 20% no-repeat;
@@ -380,27 +514,15 @@
   font-size: 1.5rem;
 }
 
-.name {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-bottom: 5px;
+@media screen and (min-width: 768px){
+  .header{
+    font-size: 2.5rem;
+    margin: 50px 10px 10px 10px;
+  }
+
 }
 
-.who {
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-.bio {
-  font-size: 0.7rem;
-  margin-top: 5px;
-}
-
-.be-part-of .icon {
-  width: 35px;
-}
-
+/*Footer*/
 footer {
   margin-top: 20px;
 }
@@ -445,6 +567,16 @@ footer {
 
 .rights hr {
   margin: 5px ;
+}
+
+@media screen and (min-width: 768px){
+  .rights img {
+    height: 80px;
+  }
+
+  .rights div {
+    font-size: 1rem;
+  }
 }
 
 /*About Style*/
