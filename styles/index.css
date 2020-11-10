@@ -111,7 +111,7 @@
   font-size: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .header {
     font-size: 2.5rem;
     margin: 50px 10px 10px 10px;
@@ -142,7 +142,7 @@
   justify-self: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .navbar {
     height: 80px;
   }
@@ -172,7 +172,7 @@
   margin-right: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .links {
     margin-right: 5px;
   }
@@ -234,7 +234,7 @@
   font-size: 1.4rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .welcome {
     padding-top: 80px;
     width: 70%;
@@ -326,7 +326,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .all-events {
     flex-direction: row;
     justify-content: center;
@@ -440,7 +440,7 @@
   margin-top: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .speakers {
     flex-direction: row;
     flex-wrap: wrap;
@@ -547,7 +547,7 @@ footer {
   margin: 5px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .rights img {
     height: 80px;
   }
@@ -587,7 +587,7 @@ footer {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .about {
     margin-top: 50px;
   }
@@ -638,7 +638,7 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .previous {
     flex-direction: row;
     flex-wrap: wrap;
@@ -704,7 +704,7 @@ td {
   border: 2px solid #ec5242;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .tickets {
     margin-top: 80px;
   }
