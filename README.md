@@ -2,7 +2,7 @@
 
 # OverWatch Convention Page (Capstone Project 1)
 
-> One paragraph statement about the project.
+> OverWatch Convention responsive page, this project includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content develped using Flex boxes, Grids, Media Queries and Flaticon Icons. Created in base to the idea [by Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## Desktop UI
 
@@ -59,6 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - W3school page
+- [Cindy Shin Original Idea](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
