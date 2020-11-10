@@ -215,7 +215,6 @@
 
 .welcome .title {
   font-size: 1.7rem;
-  font-weight: bold;
 }
 
 .welcome p, main p {
@@ -236,12 +235,10 @@
 
 .date {
   font-size: 1.7rem;
-  font-weight: bolder;
 }
 
 .place {
   font-size: 1.4rem;
-  font-weight: bold;
 }
 
 @media screen and (min-width: 768px){
@@ -294,10 +291,6 @@
   fill: #D3D3D3;
   flex-direction: column;
   align-items: center;
-}
-
-.be-part-of .tlt {
-  font-weight: bold;
 }
 
 .be-part-of .icon {
@@ -441,7 +434,6 @@
 }
 
 .name {
-  font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 5px;
 }
@@ -595,6 +587,7 @@ footer {
 }
 
 .about .text {
+  margin-top: 20px;
   align-self: center;
   flex-direction: column;
   width: 100%;
@@ -655,7 +648,6 @@ footer {
   width: 90%;
   height: 30vh;
   color: white;
-  font-weight: bold;
   font-size: 2.5rem;
   justify-content: center;
   align-items: center;
@@ -702,7 +694,7 @@ table, td {
 }
 
 table {
-  width: 90%;
+  width: 100%;
   height: 40vh;
 }
 
@@ -715,16 +707,16 @@ td {
 .select {
   align-self: center;
   font-size: 0.7rem;
-  font-weight: bold;
   border: 1px solid #D3D3D3;
   padding: 8px;
   border-radius: 15px;
 }
 
 .table {
+  width: 80%;
   margin-top: 20px;
-  width: 100%;
   justify-content: center;
+  border: 2px solid #EC5242;
 }
 
 @media screen and (min-width: 768px){
