@@ -4,61 +4,53 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+## Desktop UI
 
-Additional description about the project and its features.
+![screenshot](./assets/desktop-screenshot.png)
+
+
+
+
+## Tablet UI
+
+![screenshot](./assets/tablet-screenshot.png)
+
+
+
+
+## Phone UI
+
+![screenshot](./assets/mobile-screenshot.png)
 
 ## Built With
 
 - HTML
 - CSS
+- Linters
+- Flaticon icons
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://helman101.github.io/overwatch-con/index.html)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@helman101](https://github.com/helman101)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/helman-andres-5187271b1/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 ## Show your support
 
@@ -66,9 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- W3school page
 
 ## 📝 License
 
