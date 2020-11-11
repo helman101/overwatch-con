@@ -12,30 +12,9 @@
     <link rel="stylesheet" href="../styles/index.css">
 </head>
 
-<body>
+<body class="max-width">
     <header>
-        <nav class="navbar d-flex">
-            <div class="icon">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 341.333 341.333"
-                    xml:space="preserve">
-                    <g>
-                        <g>
-                            <rect y="277.333" width="341.333" height="42.667" />
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <rect y="149.333" width="341.333" height="42.667" />
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <rect y="21.333" width="341.333" height="42.667" />
-                        </g>
-                    </g>
-                </svg>
-            </div>
+        <nav class="navbar d-flex max-width aling-items-center">
             <div class="big-icon">
                 <svg class="Svg-icon" viewBox="0 0 281.5 279.4">
                     <path fill="#F79D19"
@@ -46,58 +25,62 @@
                 </svg>
             </div>
             <div class="links">
-                <a class="text-orange font-bold" href="../index.html">Home</a>
-                <a class="text-orange font-bold" href="tickets.html">Tickets</a>
+                <a class="text-orange font-bold lato" href="../index.html">Home</a>
+                <a class="text-orange font-bold lato" href="tickets.html">Tickets</a>
             </div>
         </nav>
     </header>
     <main>
         <section class="main d-flex">
-            <div class="about d-flex">
-                <svg class="Svg-icon" viewBox="0 0 281.5 279.4">
+            <div class="about d-flex justify-content-center aling-items-center flex-column">
+                <h1 class="header cocogoose font-bold">About</h1>
+                <div class="border"></div>
+                <svg class="svg-icon" viewBox="0 0 281.5 279.4">
                     <path fill="#F79D19"
                         d="M79 61.1c36.5-27.8 87.1-27.8 123.6 0l25.2-31C176.6-9.8 104.9-9.8 53.7 30L79 61.1z"></path>
                     <path fill="#222"
                         d="M235.6 36.6l-25.2 31.1c33.6 31.4 41.1 81.9 17.9 121.7l-55.5-53.3-25.9-58.3v88.6l54.9 52.8c-36.1 26.9-85.7 26.9-121.8 0l54.9-52.7V77.7l-26 58.3-55.5 53.3C30.2 149.6 37.6 99.1 71.2 67.7L45.9 36.6c-29.3 26.3-46 63.8-46 103.1 0 77 63.1 139.5 140.8 139.5 77.7 0 140.8-62.5 140.7-139.5.1-39.3-16.6-76.8-45.8-103.1zM271.2 217.6h1.4c.5 0 1.1 0 1.6.1.3 0 .6.2.8.4.4.4.7.9.6 1.5.1.9-.5 1.8-1.5 1.9l2 2.7h-1.8l-1.6-2.5v2.5h-1.5v-6.6zm1.4 1.2v1.7h.1c.3 0 .6 0 .9-.1.2-.2.4-.4.4-.7 0-.3-.1-.5-.3-.7-.3-.2-.6-.2-.9-.2h-.2zm.7 7.9c-3.2 0-5.8-2.6-5.8-5.8s2.6-5.8 5.8-5.8c3.2 0 5.8 2.6 5.8 5.8 0 3.3-2.6 5.8-5.8 5.8zm4.8-5.7c0-2.6-2.1-4.8-4.8-4.8-2.6 0-4.8 2.1-4.8 4.8 0 2.6 2.1 4.8 4.8 4.8 2.7-.1 4.8-2.2 4.8-4.8z">
                     </path>
                 </svg>
-                <div class="text d-flex">
-                    <p class="text-gray">
-                        OverWatch-Con gives players the chance to come together in an environment that is tailored to them,
-                        to get the most out of the experience and take it to another level. It also gives the opportunity to
+                <div class="text d-flex flex-column">
+                    <p class="text-gray lato">
+                        OverWatch-Con gives players the chance to come together in an environment that is tailored to
+                        them,
+                        to get the most out of the experience and take it to another level. It also gives the
+                        opportunity to
                         be close to the developers, ask questions and get to know them better
                     </p>
-                    <p>
+                    <p class="lato">
                         if you have any further questions regarding this year's event, do not hesitate to write
                     </p>
-                    <span class="cocogoose">ov-con2021@blizzard.org</span>
+                    <span class="cocogoose font-bold">ov-con2021@blizzard.org</span>
                 </div>
             </div>
         </section>
         <hr>
-        <section class="latest d-flex">
-            <div class="header cocogoose text-gray">See the past OverWatch-Con</div>
+        <section class="latest d-flex justify-content-center aling-items-center flex-column">
+            <h2 class="header cocogoose text-gray font-bold">See the past OverWatch-Con</h2>
             <div class="border"></div>
             <div class="text-gray cocogoose">Take a look to the past two OverWatch-Con</div>
-            <div class="previous d-flex">
-                <a href="#" class="past font-bold p1 cocogoose d-flex">
+            <div class="previous d-flex justify-content-center aling-items-center flex-column">
+                <a href="#" class="past font-bold p1 cocogoose d-flex justify-content-center aling-items-center">
                     2019
                 </a>
-                <a href="#" class="past font-bold p2 cocogoose d-flex">
-                    2018 
+                <a href="#" class="past font-bold p2 cocogoose d-flex justify-content-center aling-items-center">
+                    2018
                 </a>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="sponsors d-flex">
-            <div class="header cocogoose text-ligthgray">Sponsor</div>
+    <footer class="max-width">
+        <div class="sponsors d-flex max-width aling-items-center flex-column">
+            <h2 class="header cocogoose text-ligthgray font-bold">Sponsor</h2>
             <div class="border"></div>
-            <div class="sponsor d-flex">
+            <div class="sponsor d-flex aling-items-center flex-column">
                 <img src="../assets/images/xbox-logo.png" alt="">
             </div>
         </div>
-        <div class="rights d-flex">
+        <div class="rights d-flex lato justify-content-center aling-items-center">
             <img src="../assets/images/1280px-Blizzard_Entertainment_Logo.svg.png" alt="">
             <div>
                 ©2020 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.

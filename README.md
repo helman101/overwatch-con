@@ -2,21 +2,19 @@
 
 # OverWatch Convention Page (Capstone Project 1)
 
-> OverWatch Convention responsive page, this project includes differnet stylings of screens i.e. Moble UI, Tablet UI, Desktop UI. Dynamic images and content develped using Flex boxes, Grids, Media Queries and Flaticon Icons. Created in base to the idea [by Cindy Shin in Behance](https://www.behance.net/adagio07)
+> OverWatch Convention responsive page, this project includes different stylings of screens i.e. Mobile UI, Tablet UI, Desktop UI. Dynamic images and content developed using Flex boxes, Grids, Media Queries, and Flaticon Icons. Created based on the original idea [by Cindy Shin](https://www.behance.net/adagio07)
+
+## Project Presentation
+
+![screenshot](https://www.loom.com/share/314eb31ce1c94259b947dd5ba3bd5853)
 
 ## Desktop UI
 
 ![screenshot](./assets/desktop-screenshot.png)
 
-
-
-
 ## Tablet UI
 
 ![screenshot](./assets/tablet-screenshot.png)
-
-
-
 
 ## Phone UI
 
@@ -50,7 +48,7 @@ Contributions, issues, and feature requests are welcome!
 - Run git checkout -b your-branch-name
 - Make your contributions
 - Push your branch up to your forked repository
-- Open a Pull Request with a detailed description to the development branch of the original project for a review
+- Open a Pull Request with a detailed description of the development branch of the original project for a review
 
 ## Show your support
 

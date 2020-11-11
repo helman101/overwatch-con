@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: 'cocogoose';
   font-style: normal;
@@ -78,6 +82,10 @@
   font-family: 'cocogoose', sans-serif;
 }
 
+.lato {
+  font-family: 'lato', sans-serif;
+}
+
 .text-orange {
   color: #ec5242;
 }
@@ -98,6 +106,22 @@
   font-weight: bold;
 }
 
+.max-width {
+  max-width: 1300px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.aling-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .border {
   width: 50px;
   height: 1px;
@@ -106,7 +130,6 @@
 }
 
 .header {
-  font-weight: bolder;
   margin: 30px 10px 10px 10px;
   font-size: 1.5rem;
 }
@@ -126,7 +149,6 @@
   width: 100%;
   height: 40px;
   box-shadow: 0 2px 3px 3px #272a3171;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -136,10 +158,9 @@
   margin: 5px 0 0 5px;
 }
 
-.big-icon {
-  width: 50px;
-  margin-left: 20px;
-  justify-self: center;
+.big-icon svg {
+  width: 30px;
+  margin-left: 25px;
 }
 
 @media screen and (min-width: 769px) {
@@ -147,29 +168,23 @@
     height: 80px;
   }
 
-  .navbar .icon {
-    display: none;
-  }
-
-  .big-icon {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .big-icon {
-    display: none;
+  .big-icon svg {
+    width: 50px;
   }
 }
 
 .links {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .links a {
-  font-family: 'Lato', sans-serif;
   text-decoration: none;
   margin-right: 10px;
+}
+
+.links a:hover {
+  color: #ff1900;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 769px) {
@@ -189,15 +204,11 @@
   height: 100vh;
   background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 50% no-repeat;
   background-size: cover;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .welcome {
   padding-top: 30px;
   width: 90%;
-  flex-direction: column;
 }
 
 .welcome .title {
@@ -206,7 +217,6 @@
 
 .welcome p,
 .main p {
-  font-family: 'Lato', sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
   background-color: rgba(255, 255, 255, 0.212);
@@ -256,7 +266,6 @@
   .welcome p {
     align-self: flex-start;
     max-width: 600px;
-    font-weight: bold;
     font-size: 1.2rem;
   }
 
@@ -280,8 +289,6 @@
 .be-part-of {
   background-color: #272a31;
   fill: #d3d3d3;
-  flex-direction: column;
-  align-items: center;
 }
 
 .be-part-of .icon {
@@ -292,18 +299,13 @@
   margin-top: 5px;
 }
 
-.all-events {
-  flex-direction: column;
-  align-items: center;
-}
-
 .event {
   background-color: #d3d3d348;
-  height: 15vh;
+  height: 20vh;
+  max-height: 300px;
   width: 90%;
   margin: 10px;
   justify-content: space-around;
-  align-items: center;
 }
 
 .description {
@@ -311,9 +313,8 @@
   width: 50%;
   padding: 5px;
   color: white;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 
 .btn {
@@ -322,19 +323,29 @@
   width: 70%;
   height: 10vh;
   color: white;
-  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   margin: 20px auto 30px;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ff1900;
+}
+
+.bpo {
+  display: flex;
+}
+
+.see-all {
+  display: none;
+  margin: 30px auto 30px;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 769px) {
   .all-events {
     flex-direction: row;
-    justify-content: center;
   }
 
   .event {
@@ -353,7 +364,7 @@
   }
 
   .be-part-of .icon {
-    width: 60px;
+    width: 50px;
     margin-top: 10%;
   }
 
@@ -363,6 +374,15 @@
 
   .btn {
     width: 20%;
+    font-size: 1.5rem;
+  }
+
+  .bpo {
+    display: none;
+  }
+
+  .see-all {
+    display: block;
   }
 }
 
@@ -376,7 +396,7 @@
 
   .description {
     width: 90%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
   }
 
@@ -396,23 +416,16 @@
 
 /* Guests */
 .guests {
-  flex-direction: column;
-  font-family: 'Lato', sans-serif;
-  align-items: center;
   margin-bottom: 50px;
 }
 
 .speakers {
-  flex-direction: column;
-  align-items: center;
   align-self: center;
 }
 
 .guest {
-  height: 20vh;
   width: 90%;
   margin: 10px;
-  align-items: center;
 }
 
 .guests hr {
@@ -449,7 +462,6 @@
   .speakers {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     width: 80%;
   }
 
@@ -518,15 +530,9 @@ footer {
 .sponsors {
   width: 100vw;
   background-color: #272a31;
-  height: 40vh;
-  flex-direction: column;
+  height: 250px;
   flex-wrap: wrap;
-  align-items: center;
-}
-
-.sponsor {
-  flex-direction: column;
-  align-items: center;
+  padding-bottom: 30px;
 }
 
 .sponsors .sponsor img {
@@ -538,13 +544,10 @@ footer {
   margin: auto;
   width: 80%;
   height: 20vh;
-  justify-content: center;
-  align-items: center;
   padding: 5px;
 }
 
 .rights div {
-  font-family: 'lato', sans-serif;
   font-size: 0.7rem;
 }
 
@@ -566,10 +569,8 @@ footer {
 
 /* About */
 .about {
+  margin-bottom: 30px;
   padding-top: 30px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100vh;
   background: url(./../assets/images/candy-5d74c9b93f.jpg) 50% 0% no-repeat;
@@ -579,16 +580,15 @@ footer {
 .about .text {
   margin-top: 20px;
   align-self: center;
-  flex-direction: column;
   width: 100%;
 }
 
 .about svg {
+  margin-top: 20px;
   width: 50%;
 }
 
 .about span {
-  font-weight: bolder;
   text-decoration: underline;
 }
 
@@ -618,16 +618,8 @@ footer {
 }
 
 /* Previous */
-.latest {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .previous {
-  flex-direction: column;
   width: 90%;
-  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -638,8 +630,6 @@ footer {
   height: 30vh;
   color: white;
   font-size: 2.5rem;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
 }
 
@@ -647,7 +637,6 @@ footer {
   .previous {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   }
 
   .past {
@@ -670,9 +659,6 @@ footer {
 /* Tickets Style */
 
 .tickets {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   margin-top: 50px;
 }
 
@@ -691,7 +677,6 @@ table {
 td {
   padding: 8px;
   text-align: center;
-  font-family: 'Lato', sans-serif;
 }
 
 .select {
@@ -702,10 +687,19 @@ td {
   border-radius: 15px;
 }
 
+.prize {
+  font-size: 1.2rem;
+}
+
+.prize:hover {
+  cursor: pointer;
+  background-color: #f07c6f;
+  color: white;
+}
+
 .table {
-  width: 80%;
+  width: 90%;
   margin-top: 20px;
-  justify-content: center;
   border: 2px solid #ec5242;
 }
 
@@ -722,5 +716,9 @@ td {
   .select {
     font-size: 1rem;
     padding: 15px;
+  }
+
+  .prize {
+    font-size: 2rem;
   }
 }
