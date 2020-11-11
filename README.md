@@ -6,7 +6,7 @@
 
 ## Project Presentation
 
-![screenshot](https://www.loom.com/share/314eb31ce1c94259b947dd5ba3bd5853)
+[Presentation Video](https://www.loom.com/share/314eb31ce1c94259b947dd5ba3bd5853)
 
 ## Desktop UI
 
